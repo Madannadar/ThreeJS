@@ -9,3 +9,5 @@ npm install @gsap/react gsap(2.22.32)
 npm install maath
 
 npm install react-globe.gl
+
+line 59 index.js in section 
