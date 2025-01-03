@@ -7,7 +7,7 @@ const target = (props, isMobile) => {
     const targetRef = useRef();
     const { scene } = useGLTF('model.gltf')
 
-    useGSAP(() => {
+    useGSAP(() => {  // is a animation library
         gsap.to(targetRef.current.position, {
             // x: targetRef.current.position.x + 1,
             y: targetRef.current.position.y + 0.5,

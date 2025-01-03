@@ -7,3 +7,5 @@ npm install @react-three/eslint-plugin --save-dev(2.04.31)
 npm install @gsap/react gsap(2.22.32)
 
 npm install maath
+
+npm install react-globe.gl
