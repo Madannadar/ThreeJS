@@ -11,3 +11,5 @@ npm install maath
 npm install react-globe.gl
 
 line 59 index.js in section 
+
+npm install @emailjs/browser
