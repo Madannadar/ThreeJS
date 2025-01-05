@@ -19,7 +19,7 @@ const Contact = () => {
     const handelSubmit = async (e) => {
         e.preventDefault();
         try {
-             await emailjs.send(
+              emailjs.send(
                 'service_xxqmwnm',
                 'template_gl0aaho',
                 {
