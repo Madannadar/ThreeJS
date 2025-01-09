@@ -58,11 +58,11 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'SIES Placement List Display',
+      desc: 'SIES placement list / SIES T&P Cell, is a project entrusted by one of my seniors who is a member of the placement cell and wanted to build a better site to show all the placed studenets to the world.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Build a Responsive JS project that uses Mongoo db for database, EXPRESS acting as the bridge between frontend and database, UUID to generate unique identifiers without requiring a centralized authority in my case it was used to give UUIDs for file upload, BCRYPT for hashing the password before saving it to the database, AXIOS to make http request from browser to server, JSW for token generater and MULTER for storing the image locally ',
+      href: 'https://github.com/Madannadar/clg_placement_project.git',
       texture: '/textures/project/project1.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
