@@ -25,7 +25,7 @@ const About = () => {
             <div>
               <p className="grid-headtext"> Hi, I am Madan</p>
               <p className="grid-subtext">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam non obcaecati architecto corporis explicabo aut exercitationem reprehenderit ab similique quisquam.
+              I am an engineering student currently in my 6th semester, pursuing my passion for technology with a strong focus on web development. With a commendable CGPA of 7.5, I have consistently balanced academic achievements with practical learning, striving to turn theoretical knowledge into real-world applications.
               </p>
             </div>
           </div>
@@ -38,7 +38,10 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specalize in ....
+              Languages & Frameworks: JavaScript, Python, C++, HTML, CSS, ReactJS, Node.js, expressJs, ThreeJs, NextJs. <br />
+              Databases: MongoDB, MySQL, PostgreSQL, Firebase <br />
+              Version Control: Git, GitHub. <br />
+              Additional Skills: Responsive Design, MERN Stack Development, RESTful APIs
               </p>
             </div>
           </div>
@@ -65,7 +68,7 @@ const About = () => {
             </div>
             <div>
               <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in maharashtra, Mumbai and open to remote work worldwide.</p>
+              <p className="grid-subtext">I&apos;m based in maharashtra, Mumbai and open to remote work as well as onsite work.</p>
               <a href="#contact" className='w-fit'>
                 <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
               </a>

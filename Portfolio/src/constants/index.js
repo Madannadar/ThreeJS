@@ -63,7 +63,7 @@ export const navLinks = [
       subdesc:
         'Build a Responsive JS project that uses Mongoo db for database, EXPRESS acting as the bridge between frontend and database, UUID to generate unique identifiers without requiring a centralized authority in my case it was used to give UUIDs for file upload, BCRYPT for hashing the password before saving it to the database, AXIOS to make http request from browser to server, JSW for token generater and MULTER for storing the image locally ',
       href: 'https://github.com/Madannadar/clg_placement_project.git',
-      texture: '/textures/project/project1.mp4',
+      texture: '/textures/project/sies_placement_video.mp4',
       logo: '/assets/project-logo1.png',
       logoStyle: {
         backgroundColor: '#2A1816',
@@ -74,8 +74,8 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/assets/react.svg',
+          name: 'JavaScript',
+          path: '/assets/JavaScript-Symbol.png',
         },
         {
           id: 2,
@@ -95,12 +95,12 @@ export const navLinks = [
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'Pintrest Clone',
+      desc: 'Pintrest clone is a project that i wanted to make just because of its complex structure, features, and file handeling',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
-      texture: '/textures/project/project2.mp4',
+        'I built the project using React for the front-end to create an interactive and dynamic user interface. React’s component-based architecture made it easy to structure the app and handle state management, enabling smooth user interactions. This is especially important for a visually-driven platform like Pinterest, where efficient rendering and responsiveness are key to providing a great user experience.',
+      href: 'https://pinterest-clone-od14.onrender.com',
+      texture: '/textures/project/pintrestVideo.mp4',
       logo: '/assets/project-logo2.png',
       logoStyle: {
         backgroundColor: '#13202F',
@@ -132,10 +132,10 @@ export const navLinks = [
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: 'Youtube Frontend Using React',
+      desc: 'An frontend project that uses youtubes api for fetching data and showing them, as this project was simple in making i added new feature in the project',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
+        'I created a YouTube frontend site using React to replicate the core features of the popular video-sharing platform. By leveraging React component-based architecture, I was able to design a dynamic and responsive UI that mimics the look and feel of YouTube, including elements like video thumbnails, search functionality, and video details. React efficient state management allows for seamless user interaction, while components are easily reusable, making the app highly maintainable and scalable. This project provides a solid foundation for any further development of a video-sharing platform or integration with APIs to fetch real-time content.',
       href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
       texture: '/textures/project/project3.mp4',
       logo: '/assets/project-logo3.png',
@@ -171,7 +171,7 @@ export const navLinks = [
       ],
     },
     {
-      title: 'Horizon - Online Banking Platform',
+      title: 'FieldRental',
       desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
       subdesc:
         'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
@@ -260,28 +260,37 @@ export const navLinks = [
   export const workExperiences = [
     {
       id: 1,
-      name: 'Framer',
-      pos: 'Lead Web Developer',
-      duration: '2022 - Present',
-      title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
+      name: 'FieldRentals',
+      pos: 'Team member',
+      duration: 'Sep 2024 - Oct 2024',
+      title: "A React project that solves the problem of farmers who do not have the resources to buy their own website.Also won second price at project presentation competition Cognition",
       icon: '/assets/framer.svg',
       animation: 'victory',
     },
     {
       id: 2,
-      name: 'Figma',
-      pos: 'Web Developer',
-      duration: '2020 - 2022',
-      title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
+      name: 'Sies Placement List project',
+      pos: 'Lead Web Developer',
+      duration: 'Nov 2024 - Jan 2024',
+      title: "SIES placement list / SIES T&P Cell, is a project entrusted by one of my seniors who is a member of the placement cell and wanted to build a better site to show all the placed studenets to the world.",
       icon: '/assets/figma.svg',
       animation: 'clapping',
     },
     {
       id: 3,
-      name: 'Notion',
-      pos: 'Junior Web Developer',
-      duration: '2019 - 2020',
-      title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
+      name: 'Youtube Frontend Site',
+      pos: 'Solo project',
+      duration: 'Dec 2024 - Jan 2025',
+      title: "I build this project for its api handeling and for frontend and i added some features on it.",
+      icon: '/assets/notion.svg',
+      animation: 'victory',
+    },
+    {
+      id: 4,
+      name: 'Pintrest Clone',
+      pos: 'Solo project',
+      duration: 'Dec 2024 - present',
+      title: "Pintrest clone is a project that i wanted to make just because of its complex structure, features, and file handeling.",
       icon: '/assets/notion.svg',
       animation: 'salute',
     },

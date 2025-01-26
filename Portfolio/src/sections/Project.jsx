@@ -21,7 +21,7 @@ const Project = () => {
 
   return (
     <section className="c-space my-20"> 
-        <p className="head-text">My work</p>
+        <p className="head-text">My Projects</p>
 
         <div className="grid lg:grid-cols-2 grid-cols-1 mt-12 gap-5 w-full">
             <div className="flex flex-col gap-5 relative sm:p-10 px-5 shadow-2xl shadow-black-200">
@@ -40,7 +40,7 @@ const Project = () => {
                     <div className="flex items-center gap-3">
                         {currentProject.tags.map((tag, index) => (
                             <div key={index} className="tech-logo">
-                                <img src={tag.path} alt={tag.name} />
+                                <img src={tag.path} alt={tag.name} style={{ width: '2rem', height: '2rem' }}/>
                             </div>
                         ))}
                     </div>
